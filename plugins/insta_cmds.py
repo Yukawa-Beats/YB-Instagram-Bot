@@ -44,7 +44,7 @@ buttons=InlineKeyboardMarkup(
             InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176")
         ],
         [
-            InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
+            InlineKeyboardButton("🔗Source Code", url="https://github.com/MRK-YR/MT-Instagram-Bot"),
             InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
         ],
         [
