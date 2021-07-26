@@ -40,16 +40,16 @@ insta = Config.L
 buttons=InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-            InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
+            InlineKeyboardButton("🤔Any Doubt", url='https://t.me/Mo_Tech_Group'),
+            InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176")
         ],
         [
             InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
             InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
         ],
         [
-            InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-            InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+            InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help"),
+            InlineKeyboardButton("⚙️Update Channel", url="https://t.me/Mo_Tech_YT")
         ]
 					
     ]
@@ -86,8 +86,8 @@ async def post(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Photos", callback_data=f"photos#{username}"),
-                        InlineKeyboardButton("Videos", callback_data=f"video#{username}")
+                        InlineKeyboardButton("🎆Photos", callback_data=f"photos#{username}"),
+                        InlineKeyboardButton("📽️Videos", callback_data=f"video#{username}")
                     ]
                 ]
             )
@@ -124,8 +124,8 @@ async def igtv(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Yes", callback_data=f"yesigtv#{username}"),
-                    InlineKeyboardButton("No", callback_data=f"no#{username}")
+                    InlineKeyboardButton("✔️Yes", callback_data=f"yesigtv#{username}"),
+                    InlineKeyboardButton("❌️No", callback_data=f"no#{username}")
                 ]
             ]
         )
