@@ -8,14 +8,14 @@
       "download",
       "bot"
     ],
-    "repository": "https://github.com/subinps/Instagram-Bot",
+    "repository": "https://github.com/MRK-YT/MT-Instagram-Bot",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
         "value": ""
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
         "value": ""
       },
       "BOT_TOKEN": {
@@ -23,15 +23,15 @@
         "value": ""
       },
       "OWNER_ID": {
-        "description": "Enter Your Telegram id",
+        "description": "Enter Your Telegram id Use @MT_ID_BoT",
         "value": ""
       },
       "INSTAGRAM_USERNAME": {
         "description": "Enter your Instagram Username without @ , Example: samantharuthprabhuoffl",
-        "value": ""
+        "value": "mrk_yt_"
       },
       "INSTA_SESSIONFILE_ID": {
-        "description": "Read README in GitHub",
+        "description": "Watch Tutorial Video Link 👉",
         "value": "",
         "required": false
       }
