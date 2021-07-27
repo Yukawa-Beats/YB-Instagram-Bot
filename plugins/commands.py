@@ -64,7 +64,7 @@ async def start(bot, cmd):
 				[
 					[
 						InlineKeyboardButton("🗣️Group", url='https://t.me/mo_tech_group'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176"),
+						InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176")
 					],
                     [
                         InlineKeyboardButton("🔗Source Code", url="https://github.com/MRK-YT/MT-Instagram-Bot"),
@@ -88,7 +88,7 @@ async def help(bot, cmd):
 		reply_markup=InlineKeyboardMarkup(
 			[
 				[
-					InlineKeyboardButton("🗣️Group", url='https://t.me/mo_tech_group')
+					InlineKeyboardButton("🗣️Group", url='https://t.me/mo_tech_group'),
                                         InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176")
                        	        ],
 				[
