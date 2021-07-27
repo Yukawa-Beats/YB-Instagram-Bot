@@ -48,7 +48,7 @@ buttons=InlineKeyboardMarkup(
             InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
         ],
         [
-            InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help")
+            InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
         ]
 					
     ]
