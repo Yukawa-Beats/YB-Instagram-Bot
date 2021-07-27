@@ -53,9 +53,8 @@ async def cb_handler(bot: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
 			[
 				[
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-					InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
-                    InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+					InlineKeyboardButton("🗣️Group", url='https://t.me/Mo_Tech_YT'),
+					InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176https://t.me/Mo_Tech_YT/176")
 				],
 				[
 					InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
@@ -82,8 +81,8 @@ async def cb_handler(bot: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Photos", callback_data=f"photos#{username}"),
-                        InlineKeyboardButton("Videos", callback_data=f"video#{username}")
+                        InlineKeyboardButton("🌌Photos", callback_data=f"photos#{username}"),
+                        InlineKeyboardButton("🎞️Videos", callback_data=f"video#{username}")
                     ]
                 ]
             )
