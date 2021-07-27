@@ -43,11 +43,11 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
+						InlineKeyboardButton("🗣️Group", url='https://t.me/mo_tech_group'),
+						InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176")
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com/MRK-YT/MT-Instagram-Bot"),
 						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
                     ],
                     [
