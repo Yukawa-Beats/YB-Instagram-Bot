@@ -43,12 +43,12 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🗣️Group", url='https://t.me/mo_tech_group'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176")
+						InlineKeyboardButton("🗣️My Channel", url="https://t.me/ybdemochannel"),
+						InlineKeyboardButton("🤖INSTAGRAM", url="https://instagram.com/yukawa_beats")
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/MRK-YT/MT-Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
+						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/YB-Instagram-Bot")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
@@ -63,12 +63,12 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🗣️Group", url='https://t.me/mo_tech_group'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176")
+						InlineKeyboardButton("🗣️My Channel", url="https://t.me/ybdemochannel"),
+						InlineKeyboardButton("🤖INSTAGRAM", url="https://instagram.com/yukawa_beats")
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/MRK-YT/MT-Instagram-Bot"),
-                                              InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
+                                              InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/YB-Instagram-Bot")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
@@ -88,12 +88,12 @@ async def help(bot, cmd):
 		reply_markup=InlineKeyboardMarkup(
 			[
 				[
-					InlineKeyboardButton("🗣️Group", url='https://t.me/mo_tech_group'),
-                                        InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176")
+					InlineKeyboardButton("🗣️My Channel", url="https://t.me/ybdemochannel"),
+                                        InlineKeyboardButton("🤖INSTAGRAM", url="https://instagram.com/yukawa_beats")
                        	        ],
 				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/MRK-YT/MT-Instagram-Bot"),
-					InlineKeyboardButton("🧩How To Deploy", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+					InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
+					InlineKeyboardButton("🧩How To Deploy", url="https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/YB-Instagram-Bot")
 				]
 			]
 			)
@@ -108,12 +108,12 @@ async def stop(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🗣️Group", url='https://t.me/mo_tech_group'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/Mo_Tech_YT/176")	
+						InlineKeyboardButton("🗣️My Channel", url="https://t.me/ybdemochannel"),
+						InlineKeyboardButton("🤖INSTAGRAM", url="https://instagram.com/yukawa_beats")	
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
+						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/YB-Instagram-Bot")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
