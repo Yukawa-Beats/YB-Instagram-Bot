@@ -8,14 +8,14 @@
       "download",
       "bot"
     ],
-    "repository": "https://github.com/MRK-YT/MT-Instagram-Bot",
+    "repository": "https://github.com/Yukawa-Beats/YB-Instagram-Bot",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+        "description": "Get this value from https://my.telegram.org ",
         "value": ""
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+        "description": "Get this value from https://my.telegram.org ",
         "value": ""
       },
       "BOT_TOKEN": {
@@ -23,15 +23,15 @@
         "value": ""
       },
       "OWNER_ID": {
-        "description": "Enter Your Telegram id Use @MT_ID_BoT",
+        "description": "Enter Your Telegram id",
         "value": ""
       },
       "INSTAGRAM_USERNAME": {
         "description": "Enter your Instagram Username without @ , Example: samantharuthprabhuoffl",
-        "value": "mrk_yt_"
+        "value": "yukawa_beats"
       },
       "INSTA_SESSIONFILE_ID": {
-        "description": "Watch Tutorial Video Link 👉",
+        "description": " 👉",
         "value": "",
         "required": false
       }
