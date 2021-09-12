@@ -175,7 +175,6 @@ async def logout(bot, message):
 					[
 						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/yukawabeats'),
 						InlineKeyboardButton("🤖InSTaGRaM", url="https://instagram.com/yukawa_beats")
-					],")
 					],
                     [
                         InlineKeyboardButton("🔗Source Code", url="https://github.com"),
