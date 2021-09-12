@@ -40,11 +40,11 @@ insta = Config.L
 buttons=InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("🗣️Support My Group", url='https://t.me/ybmoviesgroup'),
+            InlineKeyboardButton("🗣️Support My Group", url='https://t.me'),
             InlineKeyboardButton("🤖InstaGram", url="https://instagram.com/yukawa_beats")
         ],
         [
-            InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
+            InlineKeyboardButton("🔗Source Code", url="https://github.com"),
             InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/Yukawa_Beats/YB-Instagram-Bot")
         ],
         [
@@ -173,7 +173,7 @@ async def followers(bot, message):
         text_file = open(f"{username}'s followers.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followers.txt", caption=f"{name}'s followers\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followers.txt", caption=f"{name}'s followers\n\nA Project By [YUKAWA BEATS](https://t.me/yukawabeats)")
         os.remove(f"./{username}'s followers.txt")
 
 
@@ -277,7 +277,7 @@ async def fans(bot, message):
         text_file = open(f"{username}'s fans.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s fans.txt", caption=f"{name}'s fans\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s fans.txt", caption=f"{name}'s fans\n\nA Project By [YUKAWA BEATS](https://t.me/yukawabeats)")
         os.remove(f"./{username}'s fans.txt")
 
 
@@ -333,7 +333,7 @@ async def nfans(bot, message):
         text_file = open(f"{username}'s Non_followers.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s Non_followers.txt", caption=f"{name}'s Non_followers\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s Non_followers.txt", caption=f"{name}'s Non_followers\n\nA Project By [YUKAWA BEATS](https://t.me/yukawabeats)")
         os.remove(f"./{username}'s Non_followers.txt")
 
 
