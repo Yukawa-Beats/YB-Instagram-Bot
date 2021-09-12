@@ -91,7 +91,7 @@ bot.send(
             ),
             types.BotCommand(
                 command="stories",
-                description="Downloads stories off all your followees"
+                description="Downloads stories off all your followers"
             ),
             types.BotCommand(
                 command="followers",
@@ -99,15 +99,15 @@ bot.send(
             ),
             types.BotCommand(
                 command="followees",
-                description="Sends a list followees of given username"
+                description="Sends a list followers of given username"
             ),
             types.BotCommand(
                 command="fans",
-                description="Get a list of followees who is following back."
+                description="Get a list of followers who is following back."
             ),
             types.BotCommand(
                 command="notfollowing",
-                description="Get a list of followees who is not following back."
+                description="Get a list of followers who is not following back."
             ),
             types.BotCommand(
                 command="tagged",
