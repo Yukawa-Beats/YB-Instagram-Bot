@@ -117,7 +117,7 @@ async def stop(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
-)
+
                     ]
 					
 				]
