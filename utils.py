@@ -192,12 +192,11 @@ async def upload(m, bot, chat_id, dir):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/chekuthan_0405'),
+					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/yukawabeats'),
 					InlineKeyboardButton("🤖Join Channel", url="https://t.me/ybdemochannel")
 				],
 				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
-                    InlineKeyboardButton("⚡️Update Channel", url="https://t.me/ybdemochannel")
+                    			InlineKeyboardButton("⚡️Update Channel", url="https://t.me/ybdemochannel")
 				]
 			]
 			)
