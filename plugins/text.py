@@ -47,12 +47,12 @@ async def account(bot, message):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🗣️Support Group", url='https://t.me/ybmoviesgroup'),
+						InlineKeyboardButton("🗣️Support Group", url='https://t.me'),
 						InlineKeyboardButton("🤖InstaGram", url="https://instagram.com/yukawa_beats"),
                         
 					],
                                         [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com"),
 						InlineKeyboardButton("🧩How To Own", url="https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/YB-Instagram-Bot")
                     ],
                     [
@@ -128,12 +128,12 @@ async def _insta_post_batch(bot, message):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("🗣️Support Group", url='https://t.me/ybmoviesgroup'),
+						InlineKeyboardButton("🗣️Support Group", url='https://t.me'),
 						InlineKeyboardButton("🤖InstaGram", url="https://instagram.com/yukawa_beats"),
                         
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com"),
 						InlineKeyboardButton("🧩How To Own", url="https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/YB-Instagram-Bot")
                     ],
                     [
