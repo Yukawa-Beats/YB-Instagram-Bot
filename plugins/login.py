@@ -45,11 +45,11 @@ async def login(bot, message):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/chekuthan_0405'),
+						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/yukawabeats'),
 						InlineKeyboardButton("🤖InSTaGRaM", url="https://instagram.com/yukawa_beats")
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com"),
 						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/YB-Instagram-Bot")
                     ],
                     [
@@ -173,12 +173,12 @@ async def logout(bot, message):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/chekuthan_0405'),
+						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/yukawabeats'),
 						InlineKeyboardButton("🤖InSTaGRaM", url="https://instagram.com/yukawa_beats")
 					],")
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/Yukawa-Beats/YB-Instagram-Bot"),
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com"),
 						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/Yukawa-Beats/YB-Instagram-Bot")
                     ],
                     [
